@@ -1,11 +1,13 @@
-import './App.css'
+/* eslint-disable no-unused-vars */
+import React from "react";
+import MainLayout from "./components/MainLayout";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1 className='text-red-700 text-xl'>Code Editor</h1>
+    <div className="App">
+      <MainLayout />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
