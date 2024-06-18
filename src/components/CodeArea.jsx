@@ -70,10 +70,10 @@ const CodeArea = () => {
             fontSize: "16px",
             padding: "16px",
             height: textareaHeight,
-            whiteSpace: "pre-wrap", // Ensure the code wraps correctly
+            whiteSpace: "pre-wrap",
             boxSizing: "border-box",
             position: "relative",
-            zIndex: 0, // Ensure the highlighted code is below the textarea
+            zIndex: 0,
           }}
         >
           <Highlight code={code} language={language} theme={themes.github}>
