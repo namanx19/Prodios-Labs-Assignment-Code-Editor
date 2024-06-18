@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import MainLayout from "./components/MainLayout";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (
     <div className="App">
-      <MainLayout />
+      <HomePage />
     </div>
   );
 };
