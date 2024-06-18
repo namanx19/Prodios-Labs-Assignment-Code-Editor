@@ -2,7 +2,19 @@ import React, { useState, useEffect, useRef } from "react";
 import { Highlight, themes } from "prism-react-renderer";
 
 const CodeArea = () => {
-  const [code, setCode] = useState("");
+  const defaultCode = `
+import React from 'react';
+
+const Code = () => {
+  return (
+    <div>Code</div>
+  );
+};
+
+export default Code;
+  `;
+
+  const [code, setCode] = useState(defaultCode.trim());
   const [language, setLanguage] = useState("jsx");
   const [textareaHeight, setTextareaHeight] = useState("auto");
   const textareaRef = useRef(null);
