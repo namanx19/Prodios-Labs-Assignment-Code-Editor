@@ -79,7 +79,7 @@ export default Code;
           className="w-full bg-gray-100 rounded-md"
           style={{
             fontFamily: "monospace",
-            fontSize: "16px",
+            fontSize: "12px",
             padding: "16px",
             height: textareaHeight,
             whiteSpace: "pre-wrap",
