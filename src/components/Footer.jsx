@@ -6,8 +6,8 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <section className="bg-gray-200 mt-4">
-      <footer className="container mx-auto px-5 py-10 gap-y-10 gap-x-5 md:pt-20 lg:gap-x-10">
+    <section className="bg-gray-200">
+      <footer className="bg-gray-200 container mx-auto px-5 py-10 gap-y-10 gap-x-5 md:pt-20 lg:gap-x-10">
         <div className="md:text-base">
           <h1 className="font-courierprime text-2xl lg:text-3xl md:text-3xl xl:text-3xl text-blacktext text-center">
             Code Editor
